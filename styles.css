@@ -40,6 +40,7 @@
     max-width: 20rem;
     background-color: var(--withe);
     border-radius: 1.3rem;
+    box-shadow: 0 .6rem 2rem hsla(223, 63%, 49%, 0.147);
 }
 .card-content__img img{
     display: block;
@@ -110,11 +111,13 @@
     padding: 1rem;
     margin-bottom: 1.3rem;
     border-radius: .7rem;
+    font-size: .9rem;
     font-weight: var(--normal-weight);
     color: var(--withe);
     text-decoration: none;
     text-align: center;
     background-color: var(--bright-blue);
+    box-shadow: 0 .8rem 1rem hsla(245, 80%, 68%, 0.371);
 }
 .card-info__button:hover{
     background-color: var(--bright-blue-hover);
@@ -127,4 +130,33 @@
 }
 .card-info__cancel:hover{
     color: var(--dark-blue);
+}
+
+/*========== media queries ==========*/
+
+/*========== tablet ==========*/
+@media screen and (min-width: 768px){
+    .card-content{
+        max-width: 25rem;
+    }
+    .card-info__title{
+        font-size: 1.7rem;
+    }
+    .card-info__plan{
+        width: 100%;
+    }
+    .card-info{
+        margin-top: -.5rem;
+        padding: 2.5rem;
+    }
+    .card-info__plan-info{
+        margin-right: 5rem;
+    }
+}
+/*========== desktop ==========*/
+@media screen and (min-width: 1440px){
+    .main-container{
+        background-size: contain;
+        background-image: url(./assets/images/pattern-background-desktop.svg);
+    }
 }
