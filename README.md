@@ -61,4 +61,4 @@ I would like to continue applying this knowledge to complete future challenges a
 - Website - [Alexander Tejedor](https://github.com/AlexanderTejedor)
 - Frontend Mentor - [@AlexanderTejedor](https://www.frontendmentor.io/profile/AlexanderTejedor)
 - Twitter - [@Alexand59894016](https://x.com/Alexand59894016)
-- Instagram - [___.alexDev.___](https://www.instag
+- Instagram - [___.alexDev.___](https://www.instagram.com/___.alexdev.___/)
